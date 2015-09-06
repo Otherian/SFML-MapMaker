@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\VisibleMakerObjects">
+      <UniqueIdentifier>{c2d27c82-299d-4137-8f04-93b062ddc673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Map">
+      <UniqueIdentifier>{0fd9fcbf-5299-45da-aec9-bd7f508469eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Map">
+      <UniqueIdentifier>{0452becd-2cd4-44c1-bf0b-0af406116028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\VisibleMakerObjects">
+      <UniqueIdentifier>{0b81afd5-df6d-4e0b-b8f0-244cb350a9ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMaker.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiles.cpp">
+      <Filter>Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibleObject.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MakerObjectManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveButton.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTextbox.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTextbox.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TilesizeTextbox.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerVisibility.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBox.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOptions.cpp">
+      <Filter>Quelldateien\VisibleMakerObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MapMaker.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.hpp">
+      <Filter>Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles.hpp">
+      <Filter>Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibleObject.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MakerObjectManager.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveButton.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTextbox.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTextbox.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TilesizeTextbox.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerVisibility.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBox.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOptions.hpp">
+      <Filter>Headerdateien\VisibleMakerObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
