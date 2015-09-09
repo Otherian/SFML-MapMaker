@@ -10,7 +10,7 @@
 #include "TextureBox.hpp"
 #include "LayerVisibility.hpp"
 #include "AddOptions.hpp"
-#include "SFML\Graphics.hpp"
+#include "SFML/Graphics.hpp"
 #include <string>
 #include <map>
 
