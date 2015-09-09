@@ -308,6 +308,7 @@ namespace mm
 					++itr;
 				}
 			}
+			m_numberTiles = numberTiles;
 			// Array has to be created again!
 			CreateVertexArrays();
 		}
