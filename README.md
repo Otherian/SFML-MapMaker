@@ -38,4 +38,4 @@ Pictures, etc:
 
 Youtube: [click me](https://www.youtube.com/watch?v=_FZl1KC_WZo&feature=youtu.be "YoutubeDemo")
 
-SFML-Forum-Post: [click me](http://en.sfml-dev.org/forums/index.php?action=post;topic=18869.0;last_msg=136153 "SFML-Forum")
+SFML-Forum-Post: [click me](http://en.sfml-dev.org/forums/index.php?topic=18869.0;last_msg=136153 "SFML-Forum")
