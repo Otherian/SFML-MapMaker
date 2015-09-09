@@ -371,6 +371,8 @@ namespace mm
 	void MakerObjectManager::SetLevel(std::string levelname)
 	{
 		m_Map.SetLevel(levelname);
+		m_currentNumberTiles = m_Map.GetTileMap(m_currentDepth)->GetNumberTiles();
+		BuildBorderAndGrid();
 	}
 
 	void MakerObjectManager::SetTexture(std::string texture)
@@ -417,7 +419,7 @@ namespace mm
 
 	void MakerObjectManager::Resize(bool is_start, int type, sf::Vector2f move)
 	{
-		// Abfangen WELCHER Rand geklickt wurde!!!		
+		// Check WICH border was clicked (right(1) or bottom(2))	
 		if (is_start)
 		{
 			if (type == 1)
