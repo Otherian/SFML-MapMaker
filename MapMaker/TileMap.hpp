@@ -11,7 +11,7 @@ namespace mm
 	{
 	public:
 		enum Depth {B2, B1, Zero, F1, F2 };
-		// z-Information, sorted: B1, B2, Zero, F1, F2
+		// z-Information, sorted: B2, B1, Zero, F1, F2
 
 		TileMap(std::string levelname = "", sf::Vector2i tileSize = sf::Vector2i(50, 50), Depth depth = Zero, bool m_isActive = true);
 		virtual ~TileMap();
@@ -19,7 +19,7 @@ namespace mm
 		void Load();
 		void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 		bool SaveLevel();
-		void TileMap::UpdateTile(Tiles updatedTile);
+		void UpdateTile(Tiles updatedTile);
 
 		// <<<<<<<<<<<<<<<<<<< TEXTURE-SIZE HERE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 		void SetTexture(std::string newTextureName, sf::Vector2i textureSize = sf::Vector2i(72, 72)); 
