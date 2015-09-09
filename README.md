@@ -34,7 +34,7 @@ To-Do:
 
 Pictures, etc:
 --------------
-![Demo-Picture](http://i.imgur.com/WO9Thgi.png)
+![Demo-Picture](http://i.imgur.com/9iYygGr.png)
 
 Youtube: [click me](https://www.youtube.com/watch?v=_FZl1KC_WZo&feature=youtu.be "YoutubeDemo")
 
