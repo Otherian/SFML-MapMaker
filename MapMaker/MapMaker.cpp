@@ -91,7 +91,7 @@ namespace mm
 					}
 					// ---------
 
-					// If leavin / joining Map-Area --> Switch state of TilePreview | (ugly but works this way :<)
+					// If leaving / joining Map-Area --> Switch state of TilePreview | (ugly but works this way :<)
 					if (oldMouseCoordinates.x <= 427 && currentEvent.mouseMove.x > 427)
 					{
 						mainWindow.setView(MapView);
@@ -113,7 +113,7 @@ namespace mm
 						MouseCoordinates = sf::Vector2i(mainWindow.mapPixelToCoords(sf::Vector2i(static_cast<int>(currentEvent.mouseMove.x), static_cast<int>(currentEvent.mouseMove.y))));
 						oldMouseCoordinates = sf::Vector2i(mainWindow.mapPixelToCoords(sf::Vector2i(static_cast<int>(oldMouseCoordinates.x), static_cast<int>(oldMouseCoordinates.y))));
 
-						// CHeck if transition into another tile:
+						// Check if transition into another tile:
 						if ((MouseCoordinates.x / tilesize.x != oldMouseCoordinates.x / tilesize.x) || (MouseCoordinates.y / tilesize.y != oldMouseCoordinates.y / tilesize.y) || 
 							(MouseCoordinates.x < 0 && oldMouseCoordinates.x >= 0) || (MouseCoordinates.y < 0 && oldMouseCoordinates.y >= 0) || 
 							(MouseCoordinates.x > 0 && oldMouseCoordinates.x <= 0) || (MouseCoordinates.y > 0 && oldMouseCoordinates.y <= 0))
